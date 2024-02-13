@@ -1,0 +1,19 @@
+.div1{
+    background-color: peru;
+    border:blue 5px solid;
+    padding: 32px;
+    margin: 12px;    
+}
+
+.div2{
+    background-color:lightblue;
+    border:cadetblue 5px solid;
+}
+
+.div3{
+    background-color: darksalmon;
+    padding: 32px;
+    border:darkgreen 5px solid;
+    margin-top: 48px;
+    margin-left: 600px;
+}
