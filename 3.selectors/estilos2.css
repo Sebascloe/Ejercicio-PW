@@ -1,0 +1,19 @@
+
+.fondo-naranja{
+    background-color: orange;
+}
+
+.borde{
+    border:black 10px solid;
+    padding: 10px;
+}
+
+.imagenes{
+    width: 300px;
+}
+
+.Machu{
+    width: 100px;
+}
+
+
