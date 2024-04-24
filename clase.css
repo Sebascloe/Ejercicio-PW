@@ -1,0 +1,21 @@
+p{
+    align-items: center;
+    align-content: center;
+}
+
+table{
+    border: black 2px solid;
+}
+
+.tablita{
+    border: black 2px solid;
+}
+
+.texto{
+    margin: auto;
+    max-width: 300px;
+}
+
+#boton{
+    margin-top: 20px;
+}

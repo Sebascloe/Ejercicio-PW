@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+    border: 1px solid black;
+     width: 200px;
+    height: 100px;
+    overflow: scroll;
+}
+</style>
+</head>
+<body>
+     <p>Do scrolling to check</p>
+     <div onscroll="myFunction()">JavaScript is a client side scripting language which is when linked with HTML makes our web pages interactive. By client side scripting language we mean that script will run at the client side in a browser. We cannot create dynamic web pages without JavaScript. It adds behaviour to the web pages.
+<br><br>
+Most of the validations are done with the help of it. JavaScript code is written within the <script></script> tags.This tag will tell the browser to interpret text written between these tags as a script.</div>
+     <p>Scrolled <span id="demo">0</span> times.</p>
+<script>
+     var x = 0;
+     function myFunction() {
+     document.getElementById("demo").innerHTML = x += 1;
+     }
+</script>
+</body>
+</html>

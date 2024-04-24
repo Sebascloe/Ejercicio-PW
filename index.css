@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+
+.tabla{
+    border: 20px;
+    border-color: black;
+    border: black 2px solid;
+}
+
+#loca{
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    justify-items: center;
+}
+
+.loca{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+
+#caja{
+    border: 1px solid black;
+     width: 200px;
+    height: 100px;
+    overflow: scroll;
+}

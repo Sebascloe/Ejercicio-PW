@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waza</title>
+    <link href="/index.css" rel="stylesheet">
+</head>
+<body onload="Carga()">
+    <h1 id="formulario">Formulario</h1>
+
+    <img src="https://illustcafe.net/cdn/shop/products/ArlecchinopostcardREDUCED_Kanomatsu_grande.jpg?v=1660349807" id="loca1" class="loca2">   
+
+    <div>
+        <input type="checkbox">
+        <input type="color">
+        <input type="button">
+        <input type="radio">
+        <input type="text">
+        <textarea >ola</textarea>
+    </div>
+    <div>
+        <label>Nombre:</label>
+        <input type="text"  id="fname" onfocus="letra(this.id)" onkeypress="Presiono()">
+    </div>
+    <div>
+        <label>Apellidos:</label>
+        <input type="text"  id="lname" onfocus="letra(this.id)" onkeypress="Presiono()">
+    </div>
+
+    <label> Genero: <input type="radio" value="1" name="gen" id="waza"> Masculino <input type="radio" value="2" name="gen" id="awanta"> Femenino</label>
+
+    <div>
+    <span> Genero: <input type="radio" value="1" name="gen" id="hombre" onclick="CambioColor()"/> Masculino <input type="radio" value="2" name="gen" id="mujer" onclick="CambioColor()"/>Femenino</span> </div>
+    
+        <p id="texto">Esto es un mensaje</p>
+        <button id="boton">Try it</button>
+
+    <div>
+        <h2>CRONOGRAMA</h2>
+        <table class="tabla">
+            <tr >
+                <th>Hora</td>
+                <th>Tema</td>
+            </tr>
+            <tr>
+                <td>18:00</td>
+                <td>Registro</td>
+                <td>wa</td>
+            </tr>
+            <tr>
+                <td>20:00</td>
+                <td>Charla</td>
+                <td>wa</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <h2>Proyectos</h2>
+        <ul>
+            <li> Primeros links </li>
+        
+            <ul>
+                <li> <a href="#" id="1">Primer link</a>   </li>
+                <li> <a href="#" id="2">Segundo link</a>   </li>
+            </ul>
+            <li> Segundos links </li>
+        
+            <ul>
+                <li> <a href="#" id="3">Tercer link</a>   </li>
+                <li> <a href="#" id="4">Cuarto link</a>   </li>
+            </ul>
+        </ul>
+    </div>
+
+
+    <div>
+        Lugar: <select id="selector">
+            <option>
+                Elija una opcion
+            </option>
+            <option value="val">
+                Val
+            </option>
+            <option value="fol">
+                Fortnite
+            </option>
+        </select>
+    </div>
+
+    <div>
+        <button id="hora" onclick="Hora()">Q hora es?</button>
+    </div>
+
+    <div onscroll="Scroll()" id="caja">JavaScript is a client side scripting language which is when linked with HTML makes our web pages interactive. By client side scripting language we mean that script will run at the client side in a browser. We cannot create dynamic web pages without JavaScript. It adds behaviour to the web pages.
+    </div>
+
+    <p> Haz scroliado <span id="scroll"></span> veces </p>
+
+    <script src="/index.js"></script>
+</body>
+</html>
